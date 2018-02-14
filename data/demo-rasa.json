@@ -1,0 +1,8257 @@
+{
+	"rasa_nlu_data": {
+		"common_examples": [{
+				"text": "hey",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "howdy",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hey there",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hello",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hi",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "yes",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "yep",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "yeah",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "cool",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "peace out",
+				"intent": "goodbye",
+				"entities": [{
+					"start": 0,
+					"end": 9,
+					"value": "peace out",
+					"entity": "Action.Goobye"
+				}]
+			},
+			{
+				"text": "goodbye",
+				"intent": "goodbye",
+				"entities": [{
+					"start": 0,
+					"end": 7,
+					"value": "goodbye",
+					"entity": "Action.Goobye"
+				}]
+			},
+			{
+				"text": "good bye",
+				"intent": "goodbye",
+				"entities": [{
+					"start": 0,
+					"end": 8,
+					"value": "good bye",
+					"entity": "Action.Goobye"
+				}]
+			},
+			{
+				"text": "see ya",
+				"intent": "goodbye",
+				"entities": [{
+					"start": 0,
+					"end": 6,
+					"value": "see ya",
+					"entity": "Action.Goobye"
+				}]
+			},
+			{
+				"text": "ciao",
+				"intent": "goodbye",
+				"entities": [{
+					"start": 0,
+					"end": 4,
+					"value": "ciao",
+					"entity": "Action.Goobye"
+				}]
+			},
+			{
+				"text": "indeed",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "that's right",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "ok",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "great",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "okay",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "no",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "configure cloudbreak",
+				"intent": "CloudBreak.Configure",
+				"entities": []
+			},
+			{
+				"text": "can you configure my cloudbreak?",
+				"intent": "CloudBreak.Configure",
+				"entities": []
+			},
+			{
+				"text": "cloudbreak configure",
+				"intent": "CloudBreak.Configure",
+				"entities": []
+			},
+			{
+				"text": "cloudbreak configure",
+				"intent": "CloudBreak.Configure",
+				"entities": []
+			},
+			{
+				"text": "no thanks",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "dont",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "don't",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "nope",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "go away",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "fuck off",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "hell no",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "goaway",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "configure my cloudbreaks",
+				"intent": "CloudBreak.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure cloud break",
+				"intent": "CloudBreak.Configure",
+				"entities": []
+			},
+			{
+				"text": "",
+				"intent": "None",
+				"entities": []
+			},
+			{
+				"text": "noway",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "no way",
+				"intent": "deny",
+				"entities": []
+			},
+			{
+				"text": "cc and save",
+				"intent": "CloudBreak.Configure",
+				"entities": [{
+					"start": 3,
+					"end": 11,
+					"value": "and save",
+					"entity": "Template.Save"
+				}]
+			},
+			{
+				"text": "cc",
+				"intent": "CloudBreak.Configure",
+				"entities": []
+			},
+			{
+				"text": "jira configure",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "jira signin",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "get worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "GetWorklogReport",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "create issue",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "create issues",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "create project",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "create projects",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "project create",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "projects create",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "create ocs service request",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "create osc sr",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "create sr",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "create service request",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "create oc sr",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "osc add host ",
+				"intent": "Osc.ConfigureUrls",
+				"entities": []
+			},
+			{
+				"text": "add oc url",
+				"intent": "Osc.ConfigureUrls",
+				"entities": []
+			},
+			{
+				"text": "add osc host",
+				"intent": "Osc.ConfigureUrls",
+				"entities": []
+			},
+			{
+				"text": "add ocs host",
+				"intent": "Osc.ConfigureUrls",
+				"entities": []
+			},
+			{
+				"text": "add oc host url",
+				"intent": "Osc.ConfigureUrls",
+				"entities": []
+			},
+			{
+				"text": "osc config",
+				"intent": "Osc.Login",
+				"entities": []
+			},
+			{
+				"text": "osc login",
+				"intent": "Osc.Login",
+				"entities": []
+			},
+			{
+				"text": "create noc",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+					"start": 7,
+					"end": 10,
+					"value": "NOC",
+					"entity": "CreateRequest.Product"
+				}]
+			},
+			{
+				"text": "create noc request",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+					"start": 7,
+					"end": 10,
+					"value": "NOC",
+					"entity": "CreateRequest.Product"
+				}]
+			},
+			{
+				"text": "create financial",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+					"start": 7,
+					"end": 16,
+					"value": "Financial",
+					"entity": "CreateRequest.Product"
+				}]
+			},
+			{
+				"text": "create financial request",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+					"start": 7,
+					"end": 17,
+					"value": "Financial ",
+					"entity": "CreateRequest.Product"
+				}]
+			},
+			{
+				"text": "track service request",
+				"intent": "Osc.TrackServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "track request",
+				"intent": "Osc.TrackServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "track req",
+				"intent": "Osc.TrackServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "configure github",
+				"intent": "Github.Configure",
+				"entities": []
+			},
+			{
+				"text": "conf github",
+				"intent": "Github.Configure",
+				"entities": []
+			},
+			{
+				"text": "configuree github",
+				"intent": "Github.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure dockerhub",
+				"intent": "Dockerhub.Configure",
+				"entities": []
+			},
+			{
+				"text": "configuee dockerhub",
+				"intent": "Dockerhub.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure dcokerhub",
+				"intent": "Dockerhub.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure Docker Hub",
+				"intent": "Dockerhub.Configure",
+				"entities": []
+			},
+			{
+				"text": "config project",
+				"intent": "Project.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure project",
+				"intent": "Project.Configure",
+				"entities": []
+			},
+			{
+				"text": "conf project",
+				"intent": "Project.Configure",
+				"entities": []
+			},
+			{
+				"text": "confffig project",
+				"intent": "Project.Configure",
+				"entities": []
+			},
+			{
+				"text": "proj config",
+				"intent": "Project.Configure",
+				"entities": []
+			},
+			{
+				"text": "config proj",
+				"intent": "Project.Configure",
+				"entities": []
+			},
+			{
+				"text": "create github webhook",
+				"intent": "Github.CreateHook",
+				"entities": []
+			},
+			{
+				"text": "create gh webhook",
+				"intent": "Github.CreateHook",
+				"entities": []
+			},
+			{
+				"text": "create gh wh",
+				"intent": "Github.CreateHook",
+				"entities": []
+			},
+			{
+				"text": "webhook github",
+				"intent": "Github.CreateHook",
+				"entities": []
+			},
+			{
+				"text": "get issues in sprint",
+				"intent": "Jira.GetIssuesInSprint",
+				"entities": []
+			},
+			{
+				"text": "issues in sprint",
+				"intent": "Jira.GetIssuesInSprint",
+				"entities": []
+			},
+			{
+				"text": "get worklog",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "worklog get",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "projects in jira",
+				"intent": "Jira.Projects",
+				"entities": []
+			},
+			{
+				"text": "projects of jira",
+				"intent": "Jira.Projects",
+				"entities": []
+			},
+			{
+				"text": "jira projects",
+				"intent": "Jira.Projects",
+				"entities": []
+			},
+			{
+				"text": "new  project",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "new projects",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "project creation",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "new issue",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "issue creation",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "issue in sprint",
+				"intent": "Jira.GetIssuesInSprint",
+				"entities": []
+			},
+			{
+				"text": "add worklog",
+				"intent": "Jira.AddWorklog",
+				"entities": []
+			},
+			{
+				"text": "add issue worklog",
+				"intent": "Jira.AddWorklog",
+				"entities": []
+			},
+			{
+				"text": "search issues",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "search issue",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "create a track",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "create trk",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "crt track",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "configure sq",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "config sq",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure sonarqube",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "sq configure",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "add user",
+				"intent": "Jira.CreateUser",
+				"entities": []
+			},
+			{
+				"text": "create user",
+				"intent": "Jira.CreateUser",
+				"entities": []
+			},
+			{
+				"text": "create sq project",
+				"intent": "SonarQube.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "create sq proj",
+				"intent": "SonarQube.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "create sonarqube project",
+				"intent": "SonarQube.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "crt sq proj",
+				"intent": "SonarQube.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "sprint issues",
+				"intent": "Jira.GetIssuesInSprint",
+				"entities": []
+			},
+			{
+				"text": "issue status",
+				"intent": "Jira.IssueStatus",
+				"entities": []
+			},
+			{
+				"text": "status of issue",
+				"intent": "Jira.IssueStatus",
+				"entities": []
+			},
+			{
+				"text": "add  issue",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "new  issues",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "types of projects",
+				"intent": "Jira.ProjectTypes",
+				"entities": []
+			},
+			{
+				"text": "project types",
+				"intent": "Jira.ProjectTypes",
+				"entities": []
+			},
+			{
+				"text": "issue types",
+				"intent": "Jira.IssueTypes",
+				"entities": []
+			},
+			{
+				"text": " types of issues",
+				"intent": "Jira.IssueTypes",
+				"entities": []
+			},
+			{
+				"text": "list of jira boards",
+				"intent": "Jira.ListBoards",
+				"entities": []
+			},
+			{
+				"text": "boards list",
+				"intent": "Jira.ListBoards",
+				"entities": []
+			},
+			{
+				"text": "jira boards list",
+				"intent": "Jira.ListBoards",
+				"entities": []
+			},
+			{
+				"text": "boards list in jira",
+				"intent": "Jira.ListBoards",
+				"entities": []
+			},
+			{
+				"text": "boards list of jira",
+				"intent": "Jira.ListBoards",
+				"entities": []
+			},
+			{
+				"text": "jira project issues",
+				"intent": "Jira.ProjectIssues",
+				"entities": []
+			},
+			{
+				"text": "jira issues of project",
+				"intent": "Jira.ProjectIssues",
+				"entities": []
+			},
+			{
+				"text": "project issues in jira",
+				"intent": "Jira.ProjectIssues",
+				"entities": []
+			},
+			{
+				"text": "issues in project of jira",
+				"intent": "Jira.ProjectIssues",
+				"entities": []
+			},
+			{
+				"text": "project issues of jira",
+				"intent": "Jira.ProjectIssues",
+				"entities": []
+			},
+			{
+				"text": "show standup meeting",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "standup meeting ",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "stand up meeting",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "run standup meeting",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "do standup meeting",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "stand up",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "standup meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "stand up meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "show stand up meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "show standup meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "jira users all",
+				"intent": "Jira.AllUsers",
+				"entities": []
+			},
+			{
+				"text": "jira all users",
+				"intent": "Jira.AllUsers",
+				"entities": []
+			},
+			{
+				"text": "sprint planning of jira",
+				"intent": "Jira.SprintPlanning",
+				"entities": []
+			},
+			{
+				"text": "jira sprint planning",
+				"intent": "Jira.SprintPlanning",
+				"entities": []
+			},
+			{
+				"text": "sprint planning",
+				"intent": "Jira.SprintPlanning",
+				"entities": []
+			},
+			{
+				"text": "planning of sprint",
+				"intent": "Jira.SprintPlanning",
+				"entities": []
+			},
+			{
+				"text": "status of issue",
+				"intent": "Jira.IssueStatus",
+				"entities": []
+			},
+			{
+				"text": "list user issues of jira",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "user issues list of jira",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list user issues",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list issues",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list tasks",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "task lists in jira",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list tasks in jira",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list user stories",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "user stories list of jira",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "user stories list in jira",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "story list in jira",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "story list of jira users",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list jira users bugs",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list bugs of jira users",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "bugs list of jira users",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list user issues tasks",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list user issues bugs",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "list user issues stories",
+				"intent": "Jira.ListUserIsuues",
+				"entities": []
+			},
+			{
+				"text": "folder create",
+				"intent": "SharePoint.CreateFolder",
+				"entities": []
+			},
+			{
+				"text": "folder creation",
+				"intent": "SharePoint.CreateFolder",
+				"entities": []
+			},
+			{
+				"text": "creation of folder",
+				"intent": "SharePoint.CreateFolder",
+				"entities": []
+			},
+			{
+				"text": "list creation",
+				"intent": "SharePoint.CreateList",
+				"entities": []
+			},
+			{
+				"text": "creation of list",
+				"intent": "SharePoint.CreateList",
+				"entities": []
+			},
+			{
+				"text": "list create",
+				"intent": "SharePoint.CreateList",
+				"entities": []
+			},
+			{
+				"text": "create site",
+				"intent": "SharePoint.CreateSite",
+				"entities": []
+			},
+			{
+				"text": "site creation",
+				"intent": "SharePoint.CreateSite",
+				"entities": []
+			},
+			{
+				"text": "creation of site",
+				"intent": "SharePoint.CreateSite",
+				"entities": []
+			},
+			{
+				"text": "site create",
+				"intent": "SharePoint.CreateSite",
+				"entities": []
+			},
+			{
+				"text": "create form",
+				"intent": "SharePoint.CreateForm",
+				"entities": []
+			},
+			{
+				"text": "form creation",
+				"intent": "SharePoint.CreateForm",
+				"entities": []
+			},
+			{
+				"text": "creation of form",
+				"intent": "SharePoint.CreateForm",
+				"entities": []
+			},
+			{
+				"text": "form create",
+				"intent": "SharePoint.CreateForm",
+				"entities": []
+			},
+			{
+				"text": "track sr",
+				"intent": "Osc.TrackServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "Track SR",
+				"intent": "Osc.TrackServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "TRACK SR",
+				"intent": "Osc.TrackServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "track SR",
+				"intent": "Osc.TrackServiceRequest",
+				"entities": []
+			},
+			{
+				"text": "azure config",
+				"intent": "Azure.Configure",
+				"entities": []
+			},
+			{
+				"text": "azure configure",
+				"intent": "Azure.Configure",
+				"entities": []
+			},
+			{
+				"text": "azc",
+				"intent": "Azure.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure my azure",
+				"intent": "Azure.Configure",
+				"entities": []
+			},
+			{
+				"text": "azure",
+				"intent": "Azure.Configure",
+				"entities": []
+			},
+			{
+				"text": "azire",
+				"intent": "Azure.Configure",
+				"entities": []
+			},
+			{
+				"text": "crt trk",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "track create",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "trk crt",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "service now",
+				"intent": "ServiceNow.Configure",
+				"entities": []
+			},
+			{
+				"text": "login servicenow",
+				"intent": "ServiceNow.Configure",
+				"entities": []
+			},
+			{
+				"text": "service now login",
+				"intent": "ServiceNow.Configure",
+				"entities": []
+			},
+			{
+				"text": "service",
+				"intent": "ServiceNow.Configure",
+				"entities": []
+			},
+			{
+				"text": "create incident",
+				"intent": "ServiceNow.CreateIncident",
+				"entities": []
+			},
+			{
+				"text": "incident create",
+				"intent": "ServiceNow.CreateIncident",
+				"entities": []
+			},
+			{
+				"text": "create incident in service now",
+				"intent": "ServiceNow.CreateIncident",
+				"entities": []
+			},
+			{
+				"text": "Incident",
+				"intent": "ServiceNow.CreateIncident",
+				"entities": []
+			},
+			{
+				"text": "burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "show burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "give burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "burndown",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "burn chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "issue search",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "search issue",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "get me velocity chart",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "show velocity chart",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "velocity chart",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "velocity chart",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "create noc for warehouse",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+						"start": 7,
+						"end": 10,
+						"value": "NOC",
+						"entity": "CreateRequest.Product"
+					},
+					{
+						"start": 15,
+						"end": 24,
+						"value": "Warehouse",
+						"entity": "CreateRequest.Category"
+					}
+				]
+			},
+			{
+				"text": "config jira",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure jira",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "create folder",
+				"intent": "SharePoint.CreateFolder",
+				"entities": []
+			},
+			{
+				"text": "create new folder",
+				"intent": "SharePoint.CreateFolder",
+				"entities": []
+			},
+			{
+				"text": "assign issue",
+				"intent": "Jira.AssignIssue",
+				"entities": []
+			},
+			{
+				"text": "assign issues",
+				"intent": "Jira.AssignIssue",
+				"entities": []
+			},
+			{
+				"text": "assiging issue",
+				"intent": "Jira.AssignIssue",
+				"entities": []
+			},
+			{
+				"text": "assing issues",
+				"intent": "Jira.AssignIssue",
+				"entities": []
+			},
+			{
+				"text": "issue assign ",
+				"intent": "Jira.AssignIssue",
+				"entities": []
+			},
+			{
+				"text": "configure sharepoint",
+				"intent": "SharePoint.Configure",
+				"entities": []
+			},
+			{
+				"text": "sharepoint configure",
+				"intent": "SharePoint.Configure",
+				"entities": []
+			},
+			{
+				"text": "wanna configure sharepoint",
+				"intent": "SharePoint.Configure",
+				"entities": []
+			},
+			{
+				"text": "I want to configure sharepoint",
+				"intent": "SharePoint.Configure",
+				"entities": []
+			},
+			{
+				"text": "create list",
+				"intent": "SharePoint.CreateList",
+				"entities": []
+			},
+			{
+				"text": "create new list",
+				"intent": "SharePoint.CreateList",
+				"entities": []
+			},
+			{
+				"text": "jira screen list",
+				"intent": "Jira.ScreenList",
+				"entities": []
+			},
+			{
+				"text": "list jira screens",
+				"intent": "Jira.ScreenList",
+				"entities": []
+			},
+			{
+				"text": "list jira screen",
+				"intent": "Jira.ScreenList",
+				"entities": []
+			},
+			{
+				"text": "jira list screen",
+				"intent": "Jira.ScreenList",
+				"entities": []
+			},
+			{
+				"text": "jira list screens",
+				"intent": "Jira.ScreenList",
+				"entities": []
+			},
+			{
+				"text": "enter standup",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "agile meeting ",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "daily standup",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "show today's meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "meeting report ",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "scrum meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "jira update issue status",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "jira issue update status",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "jira status update",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "jira update status",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "jira change issue status ",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "jira issue change status",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "jira issue status change ",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "jira change status issue",
+				"intent": "Jira.UpdateIssueStatus",
+				"entities": []
+			},
+			{
+				"text": "AWS",
+				"intent": "Aws.Configure",
+				"entities": []
+			},
+			{
+				"text": "aws",
+				"intent": "Aws.Configure",
+				"entities": []
+			},
+			{
+				"text": "aws login",
+				"intent": "Aws.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure aws",
+				"intent": "Aws.Configure",
+				"entities": []
+			},
+			{
+				"text": "aws configure",
+				"intent": "Aws.Configure",
+				"entities": []
+			},
+			{
+				"text": "update issues worklog",
+				"intent": "Jira.AddWorklog",
+				"entities": []
+			},
+			{
+				"text": "updating worklog ",
+				"intent": "Jira.AddWorklog",
+				"entities": []
+			},
+			{
+				"text": "update worklog",
+				"intent": "Jira.AddWorklog",
+				"entities": []
+			},
+			{
+				"text": "worklog add",
+				"intent": "Jira.AddWorklog",
+				"entities": []
+			},
+			{
+				"text": "install ping",
+				"intent": "Ping.InstallPing",
+				"entities": []
+			},
+			{
+				"text": "ping install",
+				"intent": "Ping.InstallPing",
+				"entities": []
+			},
+			{
+				"text": "deploy ping",
+				"intent": "Ping.InstallPing",
+				"entities": []
+			},
+			{
+				"text": "ping deploy",
+				"intent": "Ping.InstallPing",
+				"entities": []
+			},
+			{
+				"text": "ping deployment",
+				"intent": "Ping.InstallPing",
+				"entities": []
+			},
+			{
+				"text": "ping server install",
+				"intent": "Ping.InstallPing",
+				"entities": []
+			},
+			{
+				"text": "install ping server",
+				"intent": "Ping.InstallPing",
+				"entities": []
+			},
+			{
+				"text": "show issues ",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "show issues",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "get issues",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "get issue",
+				"intent": "Jira.SearchIssues",
+				"entities": []
+			},
+			{
+				"text": "issues status",
+				"intent": "Jira.IssueStatus",
+				"entities": []
+			},
+			{
+				"text": "show issue status",
+				"intent": "Jira.IssueStatus",
+				"entities": []
+			},
+			{
+				"text": "get  issue status",
+				"intent": "Jira.IssueStatus",
+				"entities": []
+			},
+			{
+				"text": "show  issue status",
+				"intent": "Jira.IssueStatus",
+				"entities": []
+			},
+			{
+				"text": "showing burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "get burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "show burn down chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "get burn down chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "show burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "show burn down chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "showing burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "showing burn down chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "get burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "enter standup meeting ",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "enter  stand up meeting",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "enter stand up meeting in jira",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "enter jira stand up meeting",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "get standup meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "show stand up meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "get stand up meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "stand up meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "display standup meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "display stand up meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "display standup meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "add issues",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "show worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "show work log report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "display worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "display work log report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "worklog report display",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "work log report display",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "worklog report show",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "work log report show",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "display burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "display burn down chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "display burn down chart in jira",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "display velocity chart",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "deploy tomcat",
+				"intent": "DeployApp.Tomcat",
+				"entities": []
+			},
+			{
+				"text": "install tomcat",
+				"intent": "DeployApp.Tomcat",
+				"entities": []
+			},
+			{
+				"text": "deploy mongodb",
+				"intent": "DeployApp.MongoDb",
+				"entities": []
+			},
+			{
+				"text": "install mongo",
+				"intent": "DeployApp.MongoDb",
+				"entities": []
+			},
+			{
+				"text": "install mongodb",
+				"intent": "DeployApp.MongoDb",
+				"entities": []
+			},
+			{
+				"text": "deploy rabbitmq",
+				"intent": "DeployApp.RabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "install rabbitmq",
+				"intent": "DeployApp.RabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "deploy rabbit",
+				"intent": "DeployApp.RabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "install rabbit",
+				"intent": "DeployApp.RabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "acs",
+				"intent": "Azure.CreateCluster",
+				"entities": []
+			},
+			{
+				"text": "azure create cluster",
+				"intent": "Azure.CreateCluster",
+				"entities": []
+			},
+			{
+				"text": "azure kube create cluster",
+				"intent": "Azure.CreateCluster",
+				"entities": []
+			},
+			{
+				"text": "azure cluster",
+				"intent": "Azure.CreateCluster",
+				"entities": []
+			},
+			{
+				"text": "install apache",
+				"intent": "DeployApp.Apache",
+				"entities": []
+			},
+			{
+				"text": "apache install",
+				"intent": "DeployApp.Apache",
+				"entities": []
+			},
+			{
+				"text": "deploy apache",
+				"intent": "DeployApp.Apache",
+				"entities": []
+			},
+			{
+				"text": "install apache server",
+				"intent": "DeployApp.Apache",
+				"entities": []
+			},
+			{
+				"text": "apache server install",
+				"intent": "DeployApp.Apache",
+				"entities": []
+			},
+			{
+				"text": "run standup in jira",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "run stand up in jira",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "conduct standup ",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "conduct stand up",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "start stabdup",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "start stand up",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "report standup ",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "add task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 8,
+					"value": "task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "task create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 4,
+					"value": "task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "task add",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 4,
+					"value": "task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add bug",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 7,
+					"value": "bug",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "bug create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 3,
+					"value": "bug",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "bug add",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 3,
+					"value": "bug",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create epic",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 11,
+					"value": "epic",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add epic",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 8,
+					"value": "epic",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "epic create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 4,
+					"value": "epic",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "epic add",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 4,
+					"value": "epic",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create story ",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 12,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add story",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 9,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "story create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 5,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "story add",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 5,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create improvement",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 18,
+					"value": "improvement",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add improvement",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 15,
+					"value": "improvement",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "improvement create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 11,
+					"value": "improvement",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "improvement add",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 11,
+					"value": "improvement",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create feature",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 14,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add feature",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 11,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "feature create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 7,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "feature add ",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 7,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create subtask",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 14,
+					"value": "subtask",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add subtask ",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 11,
+					"value": "subtask",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "subtask create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 7,
+					"value": "subtask",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "subtask add",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 7,
+					"value": "subtask",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "sub task create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 8,
+					"value": "sub task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "sub task add",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 8,
+					"value": "sub task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create sub task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 15,
+					"value": "sub task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add sub task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 12,
+					"value": "sub task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create sub-task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 15,
+					"value": "sub-task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add sub-task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 12,
+					"value": "sub-task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "sub-task create",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 8,
+					"value": "sub-task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "sub-task add ",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 0,
+					"end": 8,
+					"value": "sub-task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "deploy mongo server",
+				"intent": "DeployApp.MongoDb",
+				"entities": []
+			},
+			{
+				"text": "deploy mongo",
+				"intent": "DeployApp.MongoDb",
+				"entities": []
+			},
+			{
+				"text": "get velocity",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "show velocity",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "get burndown",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "show burndown",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "velocity",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "create noc for modification",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+						"start": 15,
+						"end": 27,
+						"value": "modification",
+						"entity": "CreateRequest.Category"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "noc",
+						"entity": "CreateRequest.Product"
+					}
+				]
+			},
+			{
+				"text": "create noc for signboard",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+						"start": 15,
+						"end": 24,
+						"value": "signboard",
+						"entity": "CreateRequest.Category"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "noc",
+						"entity": "CreateRequest.Product"
+					}
+				]
+			},
+			{
+				"text": "create noc for construction",
+				"intent": "Osc.CreateServiceRequest",
+				"entities": [{
+						"start": 15,
+						"end": 27,
+						"value": "construction",
+						"entity": "CreateRequest.Category"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "noc ",
+						"entity": "CreateRequest.Product"
+					}
+				]
+			},
+			{
+				"text": "create noc reques",
+				"intent": "",
+				"entities": [{
+					"start": 7,
+					"end": 11,
+					"value": "NOC",
+					"entity": "CreateRequest.Product"
+				}]
+			},
+			{
+				"text": "standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "show standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "get standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "search issues of ramu ",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 21,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of ramu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 18,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 13,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 19,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 19,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 16,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 20,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of harisha",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 21,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of harisha",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 17,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of nitesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 20,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of nitesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 16,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 19,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 23,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 25,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 26,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "sindu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 19,
+					"value": "sindu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 21,
+					"value": "sindu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 22,
+					"value": "sindu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of sahithi",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 17,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of sahithi",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 21,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of sahithi",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 23,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of sahithi",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 24,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 19,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 23,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 25,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 26,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of akhil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "akhil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of akhil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 19,
+					"value": "akhil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of akhil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 21,
+					"value": "akhil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of akhil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 22,
+					"value": "akhil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of dinesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 16,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of dinesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 20,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of dinesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 22,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "Search issues of dinesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 23,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of rahul",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of rahul",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 19,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of rahul",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 21,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of rahul",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 22,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of ramu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 20,
+					"value": "ramu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 22,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 21,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 22,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 21,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 22,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 23,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of harisha",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 23,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of harisha",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 24,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of nitesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 22,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "Search issues of nitesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 23,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues of ramuyarru",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 17,
+					"end": 26,
+					"value": "ramuyarru",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "bring issues of ramuyarru",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 16,
+					"end": 25,
+					"value": "ramuyarru",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of ramuyarru",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 19,
+					"value": "ramuyarru",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get issues of ramuyarru",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 14,
+					"end": 23,
+					"value": "ramuyarru",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create hadoop cluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "create hadoopcluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "hadoop cluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "crete hadoop cluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "create new issues",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "create new issue",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "new issues ",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "create new task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 15,
+					"value": "task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new bug",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 14,
+					"value": "bug",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new epic",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 15,
+					"value": "epic",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new story",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 16,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new Improvement",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 22,
+					"value": "Improvement",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new feature",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 18,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new sub-task ",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 19,
+					"value": "sub-task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new sub task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 19,
+					"value": "sub task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create new subtask",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 11,
+					"end": 18,
+					"value": "subtask",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new  task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 9,
+					"end": 13,
+					"value": "task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new bug",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 8,
+					"end": 11,
+					"value": "bug",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new story",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 8,
+					"end": 13,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "creation  issue",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "creations  issues",
+				"intent": "Jira.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "add new  epic",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 9,
+					"end": 13,
+					"value": "epic",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new  improvement",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 9,
+					"end": 20,
+					"value": "improvement",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new  feature",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 9,
+					"end": 16,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new  subtask",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 9,
+					"end": 16,
+					"value": "subtask",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new sub task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 8,
+					"end": 16,
+					"value": "sub task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "add new  sub-task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 9,
+					"end": 17,
+					"value": "sub-task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 8,
+					"value": "task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new bug",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 7,
+					"value": "bug",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new epic",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 8,
+					"value": "epic",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new story",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 9,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new improvement",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 15,
+					"value": "improvement",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new feature",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 11,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new subtask",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 11,
+					"value": "subtask",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new sub task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 12,
+					"value": "sub task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "new sub-task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 4,
+					"end": 12,
+					"value": "sub-task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "standup run",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "stanup enter",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "stand up enter",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "stand up run",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "standup start",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "stand up start",
+				"intent": "Jira.StandupMeeting",
+				"entities": []
+			},
+			{
+				"text": "show standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "show stand up report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "get  standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "get stand up meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "display jira standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "display jira stand up report ",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "display issues of venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 27,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 23,
+					"value": "sindu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of sahithi",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 25,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 27,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of akhil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 23,
+					"value": "akhil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of nitesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 24,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of rahul",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 23,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of dinesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 24,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of ramuyarru",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 27,
+					"value": "ramuyarru",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 21,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 23,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 24,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display issues of harisha",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 25,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display venkatesh issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 17,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display sindu issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 13,
+					"value": "sindu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display sahithi issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 15,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display akhil issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 13,
+					"value": "akhil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display nitesh issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 14,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display rahul issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 13,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display dinesh issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 14,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display ramuyerru issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 17,
+					"value": "ramuyerru",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display tejaswini issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 17,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display ram issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 11,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display manoj issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 13,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display prasad issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 14,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display harish issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 8,
+					"end": 14,
+					"value": "harish",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "jira login",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "login jira",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "signin jira",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "jira config",
+				"intent": "Jira.Configure",
+				"entities": []
+			},
+			{
+				"text": "fetch worklogs",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "view worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "fetch worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "users worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "user worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "fetch users work log report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "fetch user worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "user worklogs",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "users worklog",
+				"intent": "Jira.GetWorklogReport",
+				"entities": []
+			},
+			{
+				"text": "install tomcat server",
+				"intent": "DeployApp.Tomcat",
+				"entities": []
+			},
+			{
+				"text": "deploy tomcat server",
+				"intent": "DeployApp.Tomcat",
+				"entities": []
+			},
+			{
+				"text": "tomcat deploy",
+				"intent": "DeployApp.Tomcat",
+				"entities": []
+			},
+			{
+				"text": "tomcat install",
+				"intent": "DeployApp.Tomcat",
+				"entities": []
+			},
+			{
+				"text": " issues assign",
+				"intent": "Jira.AssignIssue",
+				"entities": []
+			},
+			{
+				"text": "create azure clster",
+				"intent": "Azure.CreateCluster",
+				"entities": []
+			},
+			{
+				"text": "aks",
+				"intent": "Azure.CreateCluster",
+				"entities": []
+			},
+			{
+				"text": "crt zure clster",
+				"intent": "Azure.CreateCluster",
+				"entities": []
+			},
+			{
+				"text": "create env",
+				"intent": "Azure.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "create environment",
+				"intent": "Azure.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "create environment",
+				"intent": "Azure.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "crt env",
+				"intent": "Azure.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "create azure environment",
+				"intent": "Azure.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "create azure env",
+				"intent": "Azure.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "install wildfly",
+				"intent": "DeployApp.Wildfly",
+				"entities": []
+			},
+			{
+				"text": "deploy wildfly",
+				"intent": "DeployApp.Wildfly",
+				"entities": []
+			},
+			{
+				"text": "install rabbit mq",
+				"intent": "DeployApp.RabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "please deploy rabbitmq",
+				"intent": "DeployApp.RabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "install nginx",
+				"intent": "DeployApp.NgInx",
+				"entities": []
+			},
+			{
+				"text": "deploy nginx",
+				"intent": "DeployApp.NgInx",
+				"entities": []
+			},
+			{
+				"text": "install glass fish",
+				"intent": "DeployApp.GlassFish",
+				"entities": []
+			},
+			{
+				"text": "glass fish deploy",
+				"intent": "DeployApp.GlassFish",
+				"entities": []
+			},
+			{
+				"text": "install couchdb",
+				"intent": "DeployApp.CouchDB",
+				"entities": []
+			},
+			{
+				"text": "couchdb install",
+				"intent": "DeployApp.CouchDB",
+				"entities": []
+			},
+			{
+				"text": "deploy couch db",
+				"intent": "DeployApp.CouchDB",
+				"entities": []
+			},
+			{
+				"text": "install active mq",
+				"intent": "DeployApp.ActiveMQ",
+				"entities": []
+			},
+			{
+				"text": "deploy active mq",
+				"intent": "DeployApp.ActiveMQ",
+				"entities": []
+			},
+			{
+				"text": "install jenkins",
+				"intent": "DeployApp.Jenkins",
+				"entities": []
+			},
+			{
+				"text": "deploy jenkins",
+				"intent": "DeployApp.Jenkins",
+				"entities": []
+			},
+			{
+				"text": "jenkins install",
+				"intent": "DeployApp.Jenkins",
+				"entities": []
+			},
+			{
+				"text": "jenkins deploy",
+				"intent": "DeployApp.Jenkins",
+				"entities": []
+			},
+			{
+				"text": "create hadoop clister",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "craete haddop cluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "create haddop cluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "creare hadoop cluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "create hodoop cluster",
+				"intent": "Azure.CreateHadoopCluster",
+				"entities": []
+			},
+			{
+				"text": "k8s",
+				"intent": "Kubernetes.Configure",
+				"entities": []
+			},
+			{
+				"text": "kuber",
+				"intent": "Kubernetes.Configure",
+				"entities": []
+			},
+			{
+				"text": "k88s",
+				"intent": "Kubernetes.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure k8s",
+				"intent": "Kubernetes.Configure",
+				"entities": []
+			},
+			{
+				"text": "build pipeline",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "builld pipelinee",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "build pipelinee",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "buildd pipelinee",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "create a microservice",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "creat a microservice",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "microservice",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "micro service",
+				"intent": "Track.Create",
+				"entities": []
+			},
+			{
+				"text": "configure jenkins",
+				"intent": "Jenkins.Configure",
+				"entities": []
+			},
+			{
+				"text": "config jenkins",
+				"intent": "Jenkins.Configure",
+				"entities": []
+			},
+			{
+				"text": "reconfigure jenkins",
+				"intent": "Jenkins.Configure",
+				"entities": []
+			},
+			{
+				"text": "reconfig jenkins",
+				"intent": "Jenkins.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure sonar",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "config sonar",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "reconfigure sonar",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "reconfig sonar",
+				"intent": "SonarQube.Configure",
+				"entities": []
+			},
+			{
+				"text": "create task",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 11,
+					"value": "task",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create bug",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 10,
+					"value": "bug",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create story",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 12,
+					"value": "story",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create feature ",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 7,
+					"end": 14,
+					"value": "feature",
+					"entity": "JIRA.ISSUE.TYPE"
+				}]
+			},
+			{
+				"text": "create task  for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 17,
+						"end": 20,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create task  for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 17,
+						"end": 22,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create bug  for prasad",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 22,
+						"value": "prasad",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "get worklog report for ram",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 26,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for ram,prasad",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 33,
+					"value": "ram,prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for ram, prasad, hari",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 40,
+					"value": "ram, prasad, hari",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get wl report for prasad",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 18,
+					"end": 24,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for ram,prasad",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 33,
+					"value": "ram,prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get  wl report for prasad",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 19,
+					"end": 25,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get prasad's worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 4,
+					"end": 10,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get ram's worklog report",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 4,
+					"end": 7,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get wg reprt for gpatil,ram",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 17,
+					"end": 28,
+					"value": "gpatil,ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get wg reprt in jira for gpatil, prasad, ram",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 25,
+					"end": 44,
+					"value": "gpatil, prasad, ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "aws configure",
+				"intent": "AWS.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure aws",
+				"intent": "AWS.Configure",
+				"entities": []
+			},
+			{
+				"text": "config aws",
+				"intent": "AWS.Configure",
+				"entities": []
+			},
+			{
+				"text": "aws config",
+				"intent": "AWS.Configure",
+				"entities": []
+			},
+			{
+				"text": "AWS config",
+				"intent": "AWS.Configure",
+				"entities": []
+			},
+			{
+				"text": "create aws dev env",
+				"intent": "AWS.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "create aws env",
+				"intent": "AWS.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "aws dev env",
+				"intent": "AWS.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "create dev env on aws",
+				"intent": "AWS.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "create development environment on AWS",
+				"intent": "AWS.CreateEnvironment",
+				"entities": []
+			},
+			{
+				"text": "search issues for gpatil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 24,
+					"value": "gpatil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues for gpatil,ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 28,
+					"value": "gpatil,ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search issues for prasad,gpatil,ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 35,
+					"value": "prasad,gpatil,ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search task issues  for ram, prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 24,
+						"end": 35,
+						"value": "ram, prasad",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "search bug issues for ram,gpatil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 22,
+						"end": 32,
+						"value": "ram,gpatil",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search ram's issues",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 7,
+					"end": 10,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search task issues for ram ,gpatil ",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 23,
+						"end": 34,
+						"value": "ram ,gpatil",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search issues for gpatil,ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 18,
+						"end": 28,
+						"value": "gpatil,ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 13,
+						"value": "issues",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search task issues for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 23,
+						"end": 26,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "search  issues for ram,prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 19,
+					"end": 29,
+					"value": "ram,prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create rds",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "crea rds",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "createe rdsss",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create rdss",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create aws rdss",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "createe aws rds",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "createe as rds",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create rds database",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create aws rds db",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create aws rds database",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create aws rds db instance",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create aws rds database instance",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create aws rds mysql instance",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create aws rds postgress instance",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "amazon db create",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "amazon db create instance",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "amazon database create",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "create amazon rds database",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "amazon database create instance",
+				"intent": "Aws.CreateRDSDBInstance",
+				"entities": []
+			},
+			{
+				"text": "install splunk",
+				"intent": "DeployApp.Splunk",
+				"entities": []
+			},
+			{
+				"text": "deploy splunk",
+				"intent": "DeployApp.Splunk",
+				"entities": []
+			},
+			{
+				"text": "splunk",
+				"intent": "DeployApp.Splunk",
+				"entities": []
+			},
+			{
+				"text": "splunk install",
+				"intent": "DeployApp.Splunk",
+				"entities": []
+			},
+			{
+				"text": "splunk deploy",
+				"intent": "DeployApp.Splunk",
+				"entities": []
+			},
+			{
+				"text": "glassfish",
+				"intent": "DeployApp.GlassFish",
+				"entities": []
+			},
+			{
+				"text": "install glassfish",
+				"intent": "DeployApp.GlassFish",
+				"entities": []
+			},
+			{
+				"text": "glassfish install",
+				"intent": "DeployApp.GlassFish",
+				"entities": []
+			},
+			{
+				"text": "nginx",
+				"intent": "DeployApp.NgInx",
+				"entities": []
+			},
+			{
+				"text": "nginx install",
+				"intent": "DeployApp.NgInx",
+				"entities": []
+			},
+			{
+				"text": "nginx deploy",
+				"intent": "DeployApp.NgInx",
+				"entities": []
+			},
+			{
+				"text": "nginx server install",
+				"intent": "DeployApp.NgInx",
+				"entities": []
+			},
+			{
+				"text": "wildfly",
+				"intent": "DeployApp.Wildfly",
+				"entities": []
+			},
+			{
+				"text": "wildfly jboss",
+				"intent": "DeployApp.Wildfly",
+				"entities": []
+			},
+			{
+				"text": "wildfly install",
+				"intent": "DeployApp.Wildfly",
+				"entities": []
+			},
+			{
+				"text": "wildfly deploy",
+				"intent": "DeployApp.Wildfly",
+				"entities": []
+			},
+			{
+				"text": "couchdb",
+				"intent": "DeployApp.CouchDB",
+				"entities": []
+			},
+			{
+				"text": "couchdb deploy",
+				"intent": "DeployApp.CouchDB",
+				"entities": []
+			},
+			{
+				"text": "install activemq",
+				"intent": "DeployApp.ActiveMQ",
+				"entities": []
+			},
+			{
+				"text": "activemq",
+				"intent": "DeployApp.ActiveMQ",
+				"entities": []
+			},
+			{
+				"text": "activemq install",
+				"intent": "DeployApp.ActiveMQ",
+				"entities": []
+			},
+			{
+				"text": "install postgres",
+				"intent": "DeployApp.PostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "postgres",
+				"intent": "DeployApp.PostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "postgresql",
+				"intent": "DeployApp.PostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "deploy postgres",
+				"intent": "DeployApp.PostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "install postgresql",
+				"intent": "DeployApp.PostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "install apacheambari",
+				"intent": "DeployApp.ApacheAmbari",
+				"entities": []
+			},
+			{
+				"text": "apacheambari",
+				"intent": "DeployApp.ApacheAmbari",
+				"entities": []
+			},
+			{
+				"text": "apache ambari",
+				"intent": "DeployApp.ApacheAmbari",
+				"entities": []
+			},
+			{
+				"text": "deploy apache ambari",
+				"intent": "DeployApp.ApacheAmbari",
+				"entities": []
+			},
+			{
+				"text": "apache ambari install",
+				"intent": "DeployApp.ApacheAmbari",
+				"entities": []
+			},
+			{
+				"text": "apache ambari deploy",
+				"intent": "DeployApp.ApacheAmbari",
+				"entities": []
+			},
+			{
+				"text": "jira first time",
+				"intent": "Jira.Initiate",
+				"entities": []
+			},
+			{
+				"text": "jira firsts time",
+				"intent": "Jira.Initiate",
+				"entities": []
+			},
+			{
+				"text": "jira firsts times",
+				"intent": "Jira.Initiate",
+				"entities": []
+			},
+			{
+				"text": "jiraa firsts times",
+				"intent": "Jira.Initiate",
+				"entities": []
+			},
+			{
+				"text": "issues for arjiun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 17,
+					"value": "arjiun",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for bala",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 15,
+					"value": "bala",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for dinesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 17,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for gajanan",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 18,
+					"value": "gajanan",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for hari",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 15,
+					"value": "hari",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for harisha",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 18,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 16,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for akhil",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 16,
+					"value": "akhil",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues for nitesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 11,
+					"end": 22,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "arjun",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of bala",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 14,
+					"value": "bala",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of dsaw",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 14,
+					"value": "dsaw",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of gajanan",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 17,
+					"value": "gajanan",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of hari",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 14,
+					"value": "hari",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of harisha",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 17,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of nitesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 16,
+					"value": "nitesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 16,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of nkashyap",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 18,
+					"value": "nkashyap",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of rahul",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of sahithi",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 17,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of siva",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 14,
+					"value": "siva",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of janardhan",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 19,
+					"value": "janardhan",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 15,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 19,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 19,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "issues of sekhar",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 10,
+					"end": 16,
+					"value": "sekhar",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of nitresh",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 29,
+					"value": "nitresh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of prasad",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 28,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of arjun",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 27,
+					"value": "arjun",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of ram",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 25,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of rahul",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 27,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of sahithi",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 29,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of siva",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 26,
+					"value": "siva",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report of srinu",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 22,
+					"end": 27,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "show worklog report of tejaswini",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 32,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "show worklog report of venkstesh",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 32,
+					"value": "venkstesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for sekhar",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 29,
+					"value": "sekhar",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for arjun",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 28,
+					"value": "arjun",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for srinu",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 28,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for dinesh",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 29,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for gajanan",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 30,
+					"value": "gajanan",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for hari",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 27,
+					"value": "hari",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "get worklog report for harisha",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 30,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "worklog report of prasad",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 18,
+					"end": 24,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "worklog report of ram",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 18,
+					"end": 21,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "show worklog report tejaswini",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 20,
+					"end": 29,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display worklog report of ram",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 26,
+					"end": 29,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display worklog report of srinu",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 26,
+					"end": 31,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "show worklog report of dinesh",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 29,
+					"value": "dinesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "show worklog report of harisha",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 23,
+					"end": 30,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "fetch worklog report of hari",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 24,
+					"end": 28,
+					"value": "hari",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "fetch worklog report for prasad",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 25,
+					"end": 31,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "fetch worklog report of ram",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 24,
+					"end": 27,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "fetch worklog report for harisha",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 25,
+					"end": 32,
+					"value": "harisha",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "show worklog report for venkatesh",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 24,
+					"end": 33,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "show worklog report for gajanana",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 24,
+					"end": 32,
+					"value": "gajanana",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display worklog report for sahithi",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 27,
+					"end": 34,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "display worklog report for rahul",
+				"intent": "Jira.GetWorklogReport",
+				"entities": [{
+					"start": 27,
+					"end": 32,
+					"value": "rahul",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "fetch standup meeting report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "fetch standup report",
+				"intent": "Jira.StandupReport",
+				"entities": []
+			},
+			{
+				"text": "get velocity chart",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "show velocity chart",
+				"intent": "Jira.VelocityChart",
+				"entities": []
+			},
+			{
+				"text": "fetch burndown chart",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "fetch burndown",
+				"intent": "Jira.BurnDownChart",
+				"entities": []
+			},
+			{
+				"text": "updating issues worklog",
+				"intent": "Jira.AddWorklog",
+				"entities": []
+			},
+			{
+				"text": "create task for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 25,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create task for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 20,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "user create",
+				"intent": "Jira.CreateUser",
+				"entities": []
+			},
+			{
+				"text": "invite user",
+				"intent": "Jira.CreateUser",
+				"entities": []
+			},
+			{
+				"text": "user invite",
+				"intent": "Jira.CreateUser",
+				"entities": []
+			},
+			{
+				"text": "add project",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "project add",
+				"intent": "Jira.CreateProject",
+				"entities": []
+			},
+			{
+				"text": "search task for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 19,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "search task for arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search task for venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 25,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search task for srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search task for hari",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 20,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search task for manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search task for sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "sindu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search task for tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 25,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "seach bug for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 14,
+						"end": 17,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 6,
+						"end": 9,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search bug for arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 15,
+						"end": 20,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search bug for venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 15,
+						"end": 24,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search bug for srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 15,
+						"end": 20,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search bug for hari",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 15,
+						"end": 19,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search bug for manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 15,
+						"end": 20,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search bug for sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 15,
+						"end": 20,
+						"value": "sindu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search bug for tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 15,
+						"end": 24,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search sub-task for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 20,
+						"end": 23,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub-task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search sub-task for arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 20,
+						"end": 25,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub-task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search sub-task for hari",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 20,
+						"end": 24,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub-task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search sub-task for manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 20,
+						"end": 25,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub-task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search sub-task for sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 20,
+						"end": 25,
+						"value": "sindu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub-task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search sub-task for Tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 20,
+						"end": 29,
+						"value": "Tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub-task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search epic for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 19,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search epic for arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search epic for hari",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 20,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search epic for manoj",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search epic for sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "sindu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search issues for tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+					"start": 18,
+					"end": 27,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "search story for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 17,
+						"end": 20,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search story for arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 17,
+						"end": 22,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search story for venkatesh",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 17,
+						"end": 26,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search story for srinu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 17,
+						"end": 22,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search story for sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 17,
+						"end": 22,
+						"value": "sindu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search story for tejaswini",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 17,
+						"end": 26,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search feature for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 19,
+						"end": 22,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search feature for arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 19,
+						"end": 24,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search feature for venkatesh ",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 19,
+						"end": 28,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search feature for sindu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 19,
+						"end": 24,
+						"value": "sindu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "Search feature for prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 19,
+						"end": 25,
+						"value": "prasad",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search improvement for ram",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 23,
+						"end": 26,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 18,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search improvement for arjun",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 23,
+						"end": 28,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 18,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search improvement for prasad",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 23,
+						"end": 29,
+						"value": "prasad",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 18,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search improvement for sindhu",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 23,
+						"end": 29,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 18,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "search improvement for hari",
+				"intent": "Jira.SearchIssues",
+				"entities": [{
+						"start": 23,
+						"end": 27,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 18,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create task for harisha",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 23,
+						"value": "harisha",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create task for sindu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 21,
+						"value": "sindu",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create task for sahithi",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 23,
+						"value": "sahithi",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create task for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 25,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create issues for prasad",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 18,
+					"end": 24,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create issues for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 18,
+					"end": 23,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create issues for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 18,
+					"end": 21,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create issues for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 18,
+					"end": 23,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create issues for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 18,
+					"end": 27,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create issues for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 18,
+					"end": 27,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "create issues for sindu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+					"start": 18,
+					"end": 23,
+					"value": "sindu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issues to venkatesh",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 17,
+					"end": 26,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issues to tejaswini",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 17,
+					"end": 26,
+					"value": "tejaswini",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issues to manoj",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 17,
+					"end": 22,
+					"value": "manoj",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issues to arjun",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 17,
+					"end": 22,
+					"value": "arjun",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issues to prasad",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 17,
+					"end": 23,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issues to ram",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 17,
+					"end": 20,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issues to hari",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 17,
+					"end": 21,
+					"value": "hari",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign task to venkatesh",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 15,
+						"end": 24,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign task to tejaswini",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 15,
+						"end": 24,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign task to hari",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 15,
+						"end": 19,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign task to harisha",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 15,
+						"end": 22,
+						"value": "harisha",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign task to srinu",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 15,
+						"end": 20,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign task to ram",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 15,
+						"end": 18,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign task to sindhu",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 15,
+						"end": 21,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign issue to hari",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 16,
+					"end": 20,
+					"value": "hari",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issue to srinu",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 16,
+					"end": 21,
+					"value": "srinu",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issue to ram",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 16,
+					"end": 19,
+					"value": "ram",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issue to prasad",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 16,
+					"end": 22,
+					"value": "prasad",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issue to arjun",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 16,
+					"end": 21,
+					"value": "arjun",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issue to venkatesh",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 16,
+					"end": 25,
+					"value": "venkatesh",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign issue to sahithi",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+					"start": 16,
+					"end": 23,
+					"value": "sahithi",
+					"entity": "JIRA.ASSIGNEE"
+				}]
+			},
+			{
+				"text": "assign tasks to sahithi",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 7,
+						"end": 12,
+						"value": "tasks",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 23,
+						"value": "sahithi",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "assign tasks to sindhu",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 16,
+						"end": 22,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "tasks",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "assign tasks to tejaswini",
+				"intent": "Jira.AssignIssue",
+				"entities": [{
+						"start": 16,
+						"end": 25,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "tasks",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "introduce ping",
+				"intent": "Ping.IntroducePing",
+				"entities": []
+			},
+			{
+				"text": "ping introduce",
+				"intent": "Ping.IntroducePing",
+				"entities": []
+			},
+			{
+				"text": "start ping",
+				"intent": "Ping.IntroducePing",
+				"entities": []
+			},
+			{
+				"text": "ping start",
+				"intent": "Ping.IntroducePing",
+				"entities": []
+			},
+			{
+				"text": "pingmonitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "ping monitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "monitor ping",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "show me ping monitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "display pingmonitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "get ping monitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "show ping monitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "show pingmonitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "get pingmonitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "display ping monitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "fetch ping monitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "fetch pingmonitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "bring ping monitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "bring pingmonitor",
+				"intent": "Ping.PingMonitor",
+				"entities": []
+			},
+			{
+				"text": "create bug for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 15,
+						"end": 18,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create bug for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 15,
+						"end": 20,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create bug for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 15,
+						"end": 24,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create bug for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 15,
+						"end": 24,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create bug for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 15,
+						"end": 20,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create bug for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 15,
+						"end": 19,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 10,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create story for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 17,
+						"end": 26,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create story for sindhu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 17,
+						"end": 23,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create story for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 17,
+						"end": 22,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create story for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 17,
+						"end": 21,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create story for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 17,
+						"end": 22,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create story for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 17,
+						"end": 26,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create story for ram",
+				"intent": "",
+				"entities": [{
+						"start": 17,
+						"end": 20,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 12,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create feature for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 19,
+						"end": 22,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create feature for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 19,
+						"end": 24,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create feature for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 19,
+						"end": 28,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create feature for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 19,
+						"end": 24,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create feature for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 19,
+						"end": 23,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create feature for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 14,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 19,
+						"end": 24,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create sub task for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 20,
+						"end": 29,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create sub task for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 20,
+						"end": 25,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create sub task for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 20,
+						"end": 29,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create sub task for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 7,
+						"end": 15,
+						"value": "sub task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 25,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "create sub task for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 20,
+						"end": 24,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create sub task for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 20,
+						"end": 25,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 15,
+						"value": "sub task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "jira",
+				"intent": "Jira.JiraIframe",
+				"entities": []
+			},
+			{
+				"text": "my jira",
+				"intent": "Jira.JiraIframe",
+				"entities": []
+			},
+			{
+				"text": "hi jira",
+				"intent": "Jira.JiraIframe",
+				"entities": []
+			},
+			{
+				"text": "welcome jira",
+				"intent": "Jira.JiraIframe",
+				"entities": []
+			},
+			{
+				"text": "jira welcome",
+				"intent": "Jira.JiraIframe",
+				"entities": []
+			},
+			{
+				"text": "create issue in redmine",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "create issues in redmine",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "new issues in redmine",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "create new issues in redmine",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "redmine configure",
+				"intent": "Redmine.Configure",
+				"entities": []
+			},
+			{
+				"text": "redmine signin",
+				"intent": "Redmine.Configure",
+				"entities": []
+			},
+			{
+				"text": "login redmine",
+				"intent": "Redmine.Configure",
+				"entities": []
+			},
+			{
+				"text": "signin redmine",
+				"intent": "Redmine.Configure",
+				"entities": []
+			},
+			{
+				"text": "configure redmine",
+				"intent": "Redmine.Configure",
+				"entities": []
+			},
+			{
+				"text": "list issues in redmine",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "select issues in redmine",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "show issues in redmine",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "display issues in redmine",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "get issues in redmine",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "display all issues in redmine",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "add task for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 16,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 13,
+						"end": 18,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add task for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 22,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 18,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for hari",
+				"intent": "",
+				"entities": [{
+						"start": 13,
+						"end": 17,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for manoj",
+				"intent": "",
+				"entities": [{
+						"start": 13,
+						"end": 18,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for sindhu",
+				"intent": "",
+				"entities": [{
+						"start": 13,
+						"end": 19,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "create task for tejaswini",
+				"intent": "",
+				"entities": [{
+						"start": 16,
+						"end": 25,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 7,
+						"end": 11,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add bug for ram",
+				"intent": "",
+				"entities": [{
+						"start": 12,
+						"end": 15,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 17,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 18,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for sindhu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 19,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add task for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 22,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "task",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add bug for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 12,
+						"end": 15,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add bug for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 12,
+						"end": 17,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add bug for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 12,
+						"end": 21,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add bug for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 12,
+						"end": 17,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add bug for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 12,
+						"end": 16,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add bug for sindhu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 12,
+						"end": 18,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add bug for sahithi",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 12,
+						"end": 19,
+						"value": "sahithi",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 7,
+						"value": "bug",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add subtask for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 19,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 11,
+						"value": "subtask",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add subtask for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 11,
+						"value": "subtask",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add subtask for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 11,
+						"value": "subtask",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add subtask for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 20,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 11,
+						"value": "subtask",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add subtask for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 21,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 11,
+						"value": "subtask",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add subtask for sindhu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "subtask",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 22,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add subtask for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "subtask",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 25,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add story for harisha",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 14,
+						"end": 21,
+						"value": "harisha",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 9,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add story for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 14,
+						"end": 17,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 9,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add story for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 14,
+						"end": 19,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 9,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add story for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 9,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 14,
+						"end": 19,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add story for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 9,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 14,
+						"end": 23,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add story for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 9,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 14,
+						"end": 23,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add story for sindhu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 14,
+						"end": 20,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 9,
+						"value": "story",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add epic for sahithi",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 8,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 13,
+						"end": 20,
+						"value": "sahithi",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add epic for sindhu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 19,
+						"value": "sindhu",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add epic for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 8,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 13,
+						"end": 22,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add epic for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 8,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 13,
+						"end": 22,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add epic for prasad",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 19,
+						"value": "prasad",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add epic for akhil",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 18,
+						"value": "akhil",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add epic for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 13,
+						"end": 18,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 8,
+						"value": "epic",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add feature for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 25,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add feature for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 16,
+						"end": 25,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					},
+					{
+						"start": 4,
+						"end": 11,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					}
+				]
+			},
+			{
+				"text": "add feature for prasad",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 22,
+						"value": "prasad",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add feature for manoj",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 21,
+						"value": "manoj",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add feature for ram",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 19,
+						"value": "ram",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add feature for harisha",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 23,
+						"value": "harisha",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add feature for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 11,
+						"value": "feature",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 16,
+						"end": 20,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add improvement for venkatesh",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 15,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 29,
+						"value": "venkatesh",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add improvement for tejaswini",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 15,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 29,
+						"value": "tejaswini",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add improvement for akhil",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 15,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 25,
+						"value": "akhil",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add improvement for prasad",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 15,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 26,
+						"value": "prasad",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add improvement for srinu",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 15,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 25,
+						"value": "srinu",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add improvement for hari",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 15,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 24,
+						"value": "hari",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "add improvement for arjun",
+				"intent": "Jira.CreateIssue",
+				"entities": [{
+						"start": 4,
+						"end": 15,
+						"value": "improvement",
+						"entity": "JIRA.ISSUE.TYPE"
+					},
+					{
+						"start": 20,
+						"end": 25,
+						"value": "arjun",
+						"entity": "JIRA.ASSIGNEE"
+					}
+				]
+			},
+			{
+				"text": "introduce apache",
+				"intent": "DeployApp.IntroduceApache",
+				"entities": []
+			},
+			{
+				"text": "apache introduce",
+				"intent": "DeployApp.IntroduceApache",
+				"entities": []
+			},
+			{
+				"text": "welcome apache",
+				"intent": "DeployApp.IntroduceApache",
+				"entities": []
+			},
+			{
+				"text": "hi apache",
+				"intent": "DeployApp.IntroduceApache",
+				"entities": []
+			},
+			{
+				"text": "apache welcome",
+				"intent": "DeployApp.IntroduceApache",
+				"entities": []
+			},
+			{
+				"text": "introduce glass fish",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "introduce glassfish",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "glassfish introduce",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "glass fish introduce",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "welcome glassfish",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "welcome glass fish",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "glassfish welcome",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "glass fish welcome",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "hi glassfish",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "hi glass fish",
+				"intent": "DeployApp.IntroduceGlassFish",
+				"entities": []
+			},
+			{
+				"text": "introduce jenkins",
+				"intent": "DeployApp.IntroduceJenkins",
+				"entities": []
+			},
+			{
+				"text": "jenkins introduce",
+				"intent": "DeployApp.IntroduceJenkins",
+				"entities": []
+			},
+			{
+				"text": "welcome jenkins",
+				"intent": "DeployApp.IntroduceJenkins",
+				"entities": []
+			},
+			{
+				"text": "jenkins welcome",
+				"intent": "DeployApp.IntroduceJenkins",
+				"entities": []
+			},
+			{
+				"text": "hi jenkins",
+				"intent": "DeployApp.IntroduceJenkins",
+				"entities": []
+			},
+			{
+				"text": "mongodb introduce",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "introduce mongodb",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "welcome mongodb",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "mongodb welcome",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "hi mongodb",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "mongo db introduce",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "introduce mongo db",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "welcome mongo db",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "mongo db welcome",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "hi mongo db",
+				"intent": "DeployApp.IntroduceMongoDb",
+				"entities": []
+			},
+			{
+				"text": "introduce nginx",
+				"intent": "DeployApp.IntroduceNginx",
+				"entities": []
+			},
+			{
+				"text": "nginx introduce",
+				"intent": "DeployApp.IntroduceNginx",
+				"entities": []
+			},
+			{
+				"text": "welcome nginx",
+				"intent": "DeployApp.IntroduceNginx",
+				"entities": []
+			},
+			{
+				"text": "nginx welcome",
+				"intent": "DeployApp.IntroduceNginx",
+				"entities": []
+			},
+			{
+				"text": "hi nginx",
+				"intent": "DeployApp.IntroduceNginx",
+				"entities": []
+			},
+			{
+				"text": "introduce postgresql",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "postgresql introduce",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "welcome postgresql",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "postgresql welcome",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "hi postgresql",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "introduce postgre sql",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "postgre sql introduce",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "welcome postgre sql",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "postgre sql welcome",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "hi postgre sql",
+				"intent": "DeployApp.IntroducePostgreSQL",
+				"entities": []
+			},
+			{
+				"text": "introduce rabbitmq",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "rabbitmq introduce",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "introduce rabbit mq",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "rabbit mq introduce",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "welcome rabbitmq",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "rabbitmq welcome",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "welcome rabbit mq",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "rabbit mq welcome",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "hi rabbitmq",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "hi rabbit mq",
+				"intent": "DeployApp.IntroduceRabbitMQ",
+				"entities": []
+			},
+			{
+				"text": "introduce tomcat",
+				"intent": "DeployApp.IntroduceTomcat",
+				"entities": []
+			},
+			{
+				"text": "tomcat introduce",
+				"intent": "DeployApp.IntroduceTomcat",
+				"entities": []
+			},
+			{
+				"text": "welcome tomcat",
+				"intent": "DeployApp.IntroduceTomcat",
+				"entities": []
+			},
+			{
+				"text": "tomcat welcome",
+				"intent": "DeployApp.IntroduceTomcat",
+				"entities": []
+			},
+			{
+				"text": "hi tomcat",
+				"intent": "DeployApp.IntroduceTomcat",
+				"entities": []
+			},
+			{
+				"text": "introduce wildfly",
+				"intent": "DeployApp.IntroduceWildfly",
+				"entities": []
+			},
+			{
+				"text": "wildfly introduce",
+				"intent": "DeployApp.IntroduceWildfly",
+				"entities": []
+			},
+			{
+				"text": "welcome wildfly",
+				"intent": "DeployApp.IntroduceWildfly",
+				"entities": []
+			},
+			{
+				"text": "wildfly welcome",
+				"intent": "DeployApp.IntroduceWildfly",
+				"entities": []
+			},
+			{
+				"text": "hi wildfly",
+				"intent": "DeployApp.IntroduceWildfly",
+				"entities": []
+			},
+			{
+				"text": "introduce elk",
+				"intent": "ELK.IntroduceELK",
+				"entities": []
+			},
+			{
+				"text": "elk introduce",
+				"intent": "ELK.IntroduceELK",
+				"entities": []
+			},
+			{
+				"text": "welcome elk",
+				"intent": "ELK.IntroduceELK",
+				"entities": []
+			},
+			{
+				"text": "elk welcome",
+				"intent": "ELK.IntroduceELK",
+				"entities": []
+			},
+			{
+				"text": "hi elk",
+				"intent": "ELK.IntroduceELK",
+				"entities": []
+			},
+			{
+				"text": "introduce kubernetes",
+				"intent": "Kubernetes.IntroduceKubernetes",
+				"entities": []
+			},
+			{
+				"text": "kubernetes introduce",
+				"intent": "Kubernetes.IntroduceKubernetes",
+				"entities": []
+			},
+			{
+				"text": "welcome kubernetes",
+				"intent": "Kubernetes.IntroduceKubernetes",
+				"entities": []
+			},
+			{
+				"text": "kubernetes welcome",
+				"intent": "Kubernetes.IntroduceKubernetes",
+				"entities": []
+			},
+			{
+				"text": "hi kubernetes",
+				"intent": "Kubernetes.IntroduceKubernetes",
+				"entities": []
+			},
+			{
+				"text": "introduce osc",
+				"intent": "OSC.IntroduceOSC",
+				"entities": []
+			},
+			{
+				"text": "osc introduce",
+				"intent": "OSC.IntroduceOSC",
+				"entities": []
+			},
+			{
+				"text": "welcome osc",
+				"intent": "OSC.IntroduceOSC",
+				"entities": []
+			},
+			{
+				"text": "osc welcome",
+				"intent": "OSC.IntroduceOSC",
+				"entities": []
+			},
+			{
+				"text": "hi osc",
+				"intent": "OSC.IntroduceOSC",
+				"entities": []
+			},
+			{
+				"text": "introduce servicenow",
+				"intent": "ServiceNow.IntroduceServiceNow",
+				"entities": []
+			},
+			{
+				"text": "servicenow introduce ",
+				"intent": "ServiceNow.IntroduceServiceNow",
+				"entities": []
+			},
+			{
+				"text": "welcome servicenow",
+				"intent": "ServiceNow.IntroduceServiceNow",
+				"entities": []
+			},
+			{
+				"text": "servicenow welcome",
+				"intent": "ServiceNow.IntroduceServiceNow",
+				"entities": []
+			},
+			{
+				"text": "hi servicenow",
+				"intent": "ServiceNow.IntroduceServiceNow",
+				"entities": []
+			},
+			{
+				"text": "add issues in redmine",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "add new issues in redmine",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "create redmine issues",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "add redmine issues",
+				"intent": "Redmine.CreateIssue",
+				"entities": []
+			},
+			{
+				"text": "list all redmine issues",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "bring all redmine issues",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "bring redmine issues",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			},
+			{
+				"text": "redmine issues",
+				"intent": "Redmine.ListIssues",
+				"entities": []
+			}
+		]
+	}
+}
